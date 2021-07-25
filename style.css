@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+        min-height:80vh;
+    background-image: url("image/summer01.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;    
+}
+
+h1{
+  margin-bottom: 30px;    
+}
+
+input{
+    font-size: 16px;
+}
+
+button{
+    padding: 10px;
+}
+
+#container{
+    padding: 50px 0;
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#realtimeCountdownArea{
+    margin: 50px 0;
+}
+
+#alert_time{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 20px;
+}
+
+@media screen and (max-width: 730px) {
+    input{
+        display: block;
+        width: 180px;
+        margin: 0 auto;
+    }
+    #start_countdown{
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+    #container{
+        text-align: center;
+    }
+    
+    #alert_time{
+        display: block;
+        font-size: 30px;
+    }
+}
